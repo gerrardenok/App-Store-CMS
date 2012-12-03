@@ -1,0 +1,97 @@
+html {height:100%;background:url(../img/gbg.png) left 40px repeat-x #f9f9f9;}
+body {min-width:1000px;margin:0;padding:0;background:#f9f9f9;height:100%;background:url(../img/dm.png) left top no-repeat;}
+
+h5 {margin:0;}
+textarea {resize:none;}
+
+.logo{display:block;width:240px;height:40px;float:left;background:url(../img/logo.png);}
+.navbar-inner {z-index:999;}
+ .login {padding:10px;}
+
+#mblock {margin:50px 15% 0 15%;box-shadow:0 0 10px #ccc;width:70%;min-height:600px;background:#fff;}
+td.search {padding:10px 0 10px 0;text-align:center;}
+td.search input[type=text] {width:70%;height:35px;padding:0 0 1px 10px;float:left;margin-left:10%;}
+#mtable {width:100%;margin-top:30px;}
+.content {width:65%;max-width:65%;margin-top:20px;vertical-align:top;padding:10px;}
+.str {float:right;height:600px;width:1px;margin-right:-1px;}
+
+.msg {padding:7px;background-color: #D44A26;color:#fff;border-color:#D44A26;border:1px;border-style:solid;margin:5px;}
+.msg-succ {padding:7px;color:#fff;border:1px;border-style:solid;margin:5px;background-color: #01A31C;border-color: #01A31C;}
+
+#reg .span2 {width:92px;}
+#reg td {vertical-align:top;text-align:right;}
+#reg img {margin-right:50px;margin-bottom:5px;}
+#reg input[type=submit]{float:left;}
+
+.news {margin-bottom:20px;min-height:120px;}
+.news .date {font-size:12px;color:#555;margin-right:5px;opacity:0.5;}
+.news .date:hover {opacity:1.0;}
+.news .thumbnail {float:left;margin:5px;}
+.news img {max-width:120px;max-height:100px;}
+.news .text a{text-decoration:none;}
+
+.full .well {padding:5px;}
+.full .scr {max-width:400px;max-height:400px;box-shadow:0 0 5px #666;display:block;margin-bottom:20px;}
+
+#profile .lp a{text-decoration:none;color:#000;}
+#profile .lp .thumbnail {width:100px;height:100px;}
+#profile .lp .btn {width:84px;margin-top:5px;}
+#profile .lp input[type=file]{margin-top: -42px; margin-left:-90px;-moz-opacity: 0; filter: alpha(opacity=0); opacity: 0; font-size: 30px; height: 32px;}
+#profile .rp {padding-left:15px;width:100%;}
+#profile .rp .well{padding:5px;}
+#profile .rp .age {color:#000;font-size:12px;}
+
+.hint {color:#bbb;}
+
+#pr td{vertical-align:top;}
+#pr .title {font-size:18px;font-weight:bold;}
+#pr .thumbnail {padding:0;margin:0;}
+#pr .dllast {margin-bottom:10px;line-height:15px;padding-left:5px;}
+#pr .dllast .dl{font-size:18px;}
+#pr .dllast div {text-align:left;font-size:12px;background:url(../img/dl.png) left center no-repeat;padding-left:40px;width:95px;}
+#pr .scr {width:150px;height:200px;background-size:150px;background-position:center center;background-repeat:no-repeat;}
+#pr .rp {padding-left:15px;width:100%;}
+#pr .rate {width:250px;height:20px;background-color: #D4D4D4;}
+#pr .rate .line {background-color: #5eb95e;height:19px;border-bottom:1px solid rgba(0, 0, 0, 0.15);color:#fff;text-align:right;}
+#pr .nav-tabs {margin-right:0;}
+#pr .nav-tabs li{width:155px;}
+
+.spoiler {display:none;}
+
+#comments .well{padding:5px;margin-top:5px;}
+.clear{clear:both}
+
+.comments-all{ margin-top:30px;margin-bottom:20px;padding:10px 20px; height:20px}
+.add-comment{ cursor:pointer; float:right}
+.comment-title{  margin-top:20px; padding:5px 20px;height:20px}
+.comment-title b {font-size:15px;}
+.comment-message{  padding:5px 20px}
+
+.message {width:100%;}
+.comment{padding:40px 50px 40px 50px}
+.editor,#addcomment{display:none; margin-top:1px;padding:10px 30px 0 20px;}
+#addcomment {padding:0;}
+#addcomment #comment-form{padding:0 30px 0 20px;}
+.comment-ans{float:right; cursor:pointer}
+
+.sidebar {vertical-align:top;width:35%;background:#f2f2f2;min-width:35%;}
+.sidebar .soc {width:180px;margin:0 auto;height:40px;margin-top:10px;}
+.sidebar .soc a{display:block;width:40px;height:40px;margin-right:5px;background-size:40px;float:left;}
+.sidebar .soc a:hover {opacity:1;}
+.soc .vk {background-image:url(../img/soc/vk.png);}
+.soc .fb {background-image:url(../img/soc/fb.png);}
+.soc .tw {background-image:url(../img/soc/tw.png);}
+.soc .gp {background-image:url(../img/soc/gp.png);}
+.sidebar .block {width:90%;margin-left:4%;background:#f9f9f9;padding:5px;margin-top:10px;}
+.sidebar .block .title {font-size:18px;margin-bottom:5px;}
+
+#foot {margin:20px 15%;width:70%;}
+#foot .cpr {float:left;height:40px;line-height:30px;margin-bottom:20px;}
+#foot .cntrs {float:right;}
+#foot .cntrs div {width:88px;height:31px;background:#fff;border-radius:5px;box-shadow:0 0 3px #ccc;margin-left:5px;float:left;}
+
+.prs li {width:150px;height:200px;}
+
+#admin td {width:50%;}
+
+.mark {font-weight:bold;font-size:20px;vertical-align:middle;}

@@ -1,0 +1,27 @@
+<div id="header">
+	<a href="/" class="logo"></a>
+	<div class="btn-group">
+    <a class="btn dropdown-toggle" style="background:none;border:0;color:#fff;height:40px;" data-toggle="dropdown" href="#">
+    Action
+    <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    <li><a tabindex="-1" href="#">Action</a></li>
+    <li><a tabindex="-1" href="#">Another action</a></li>
+    <li><a tabindex="-1" href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a tabindex="-1" href="#">Separated link</a></li>
+    </ul>
+    </div>
+	<div class="login">
+	<?if (!$_SESSION['login']) {?>
+	<form action="/?act=login" method="POST">
+	<table>
+	<tr><td>Логин: </td><td><input type="text" name="login"></td><td rowspan=2><input type="submit" value="Войти"></td></tr>
+	<tr><td>Пароль: </td><td><input type="password" name="pass"></td></tr>
+	</table></form>
+	<?} else {?>
+	<a href="/user.php"><?=$_SESSION['login']?></a>
+	<?}?>
+	</div>
+	</div>
